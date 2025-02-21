@@ -1,0 +1,40 @@
+/* استيراد خط جميل من Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* ضبط إعدادات عامة للصفحة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* تنسيق خلفية الصفحة ونصوصها */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #f0f0f0, #dcdcdc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* تنسيق العنوان */
+button {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #444;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* تأثير عند تمرير الماوس */
+button:hover {
+    transform: scale(1.1);
+    color: #007BFF;
+}
+
